@@ -23,7 +23,7 @@ I can easily find contact with people of different ages, I am a team player, and
 *SQL(Basic)
 *Git(Basic)
 
-**Code Examle**<h1>
+**Code Example**<h1>
 --------------------------------------------------------------------------
 '''
 int a[10], i, j, k;
