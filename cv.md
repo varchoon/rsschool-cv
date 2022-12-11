@@ -13,6 +13,8 @@ GitHub: varchoon
 
 **About Me**<h1>
 --------------------------------------------------------------------------
+I can easily find contact with people of different ages, I am a team player, and I also love to learn and develop new skills in the directions that are necessary for me.
+
 
 **Skills**<h1>
 --------------------------------------------------------------------------
