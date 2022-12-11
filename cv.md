@@ -49,3 +49,4 @@ CV#1. Markdown & Git (https://github.com/varchoon/rsschool-cv)
 
 **English**<h1>
 --------------------------------------------------------------------------
+A2 (Pre-Intermediate)
