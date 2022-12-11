@@ -25,6 +25,18 @@ I can easily find contact with people of different ages, I am a team player, and
 
 **Code Examle**<h1>
 --------------------------------------------------------------------------
+'''
+int a[10], i, j, k;
+for (i=0, i<10, i++){
+    for(j=i+1, j<10, j++){
+        if(a[i]>a[j]){
+            k=a[j];
+            a[j]=a[i];
+            a[i]=k;
+        }
+    }
+}
+'''
 
 **Experience**<h1>
 --------------------------------------------------------------------------
