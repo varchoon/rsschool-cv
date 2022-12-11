@@ -18,6 +18,10 @@ I can easily find contact with people of different ages, I am a team player, and
 
 **Skills**<h1>
 --------------------------------------------------------------------------
+*C(Basic)
+*HTML(Basic)
+*SQL(Basic)
+*Git(Basic)
 
 **Code Examle**<h1>
 --------------------------------------------------------------------------
