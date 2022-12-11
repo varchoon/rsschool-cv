@@ -44,6 +44,8 @@ CV#1. Markdown & Git (https://github.com/varchoon/rsschool-cv)
 
 **Education**<h1>
 --------------------------------------------------------------------------
+*University: Belarusian State University of Transport, Electrical Engineer (2013-2018)
+*Academy: Academy of Public Administration under the President of the Republic of Belarus, Human Resources (2020-2022)
 
 **English**<h1>
 --------------------------------------------------------------------------
