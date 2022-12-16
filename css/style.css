@@ -1,3 +1,27 @@
-.yellow-header {
-    background-color:yellow;
+.name{
+    text-align: center;
+}
+.main{
+    max-width: 960px;
+    margin: auto;
+    background-color: burlywood;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.breakLine{
+    background-color: bisque;
+    height: 5px;
+    padding-left: 0px;
+}
+.info{
+    max-width: 625px;
+}
+.image{
+    width: 30%;
+    height: 30%;
+    float: right;
+}
+.contacts{
+    list-style-type: circle;
 }
