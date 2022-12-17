@@ -4,8 +4,7 @@ p{
     text-align: center;
 }
 .name{
-    text-align: left;
-    display: inline-block;
+    text-align: center;
 }
 .header{
     max-width: 1440px;
@@ -60,7 +59,7 @@ p{
     margin-left: 20px;
 }
 .menu{
-    display: inline-block;
+    margin: 0 auto;
 }
 .footer{
     max-width: 1440px;
