@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Example</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>cv</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" href="img/favicon.ico"/>
 </head>
 <body>
+    <header class="header">
+        <h1 class="name">VALERY LOZNIA</h1>
+            <div class="center"><nav class="menu">
+                <ul class="list">
+                    <li class="listItem"><a href="#sectionContacts">Contacts</a></li>
+                    <li class="listItem"><a href="#sectionAbout">About</a></li>
+                    <li class="listItem"><a href="#sectionSkills">Skills</a></li>
+                    <li class="listItem"><a href="#sectionCode">Code</a></li>
+                    <li class="listItem"><a href="#sectionExperience">Experience</a></li>
+                    <li class="listItem"><a href="#sectionEducation">Education</a></li>
+                    <li class="listItem"><a href="#sectionEnglish">English</a></li>
+                </ul>
+            </nav></div>
+        <div class="breakLine"></div>
+    </header>
+    <main class="main">
+        <figure>
+            <img class="image" alt="Avatar" src="img/Selfie.jpg"/>
+        </figure>
+        <section id="#sectionContacts" class="center">
+            <h2>Contacts</h2>
+            <div>
+                <ul class="list">
+                    <li class="listItem">Location: Gomel, Belarus</li>
+                    <li class="listItem">Phone: +375 44 783-66-84</li>
+                    <li class="listItem">Email: valeryloznia@gmail.com</li>
+                    <li class="listItem">GitHub: <a href="https://github.com/varchoon" target="_blank">varchoon</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="breakLine"></div>
+        <section id="sectionAbout">
+            <h2>About Me</h2>
+            <p>I can easily find contact with people of different ages, I am a team player, and 
+              I also love to learn and develop new skills in the directions that are necessary for me.</p>
+            <div class="breakLine"></div>
+        </section>
+        <section id="sectionSkills" class="center">
+            <h2>Skills</h2>
+            <ul class="list">
+                <li class="listItem">C(Basic)</li>
+                <li class="listItem">HTML(Basic)</li>
+                <li class="listItem">SQL(Basic)</li>
+                <li class="listItem">Git(Basic)</li>
+            </ul>
+        </section>
+        <div class="breakLine"></div>
+        <section id="sectionCode" class="center">
+            <h2>Code Example: Bubble sort</h2>
+            <pre class="code">
+'''
+int a[10], i, j, k;
+for (i=0, i&lt;10, i++){
+    for(j=i+1, j&lt;10, j++){
+        if(a[i]&gt;a[j]){
+            k=a[j];
+            a[j]=a[i];
+            a[i]=k;
+        }
+    }
+}
+'''</pre>
+        </section>
+        <div class="breakLine"></div>
+        <section id="sectionExperience" class="center">
+            <h2>Experience</h2>
+            <ul class="list">
+                <li class="listItem"><a href="https://github.com/varchoon/rsschool-cv" target="_blank">CV#1. Markdown & Git</a></li>
+                <li class="listItem"><a href="https://github.com/varchoon/rsschool-cv" target="_blank">CV#2. HTML, CSS & Git Basics</a></li>
+                <li class="listItem"><a href="https://github.com/varchoon/rsschool-cv" target="_blank">CV#3. CV. Cross Check</a></li>
+            </ul>
+        </section>
+        <div class="breakLine"></div>
+        <section id="sectionEducation" class="center">
+            <h2>Education</h2>
+            <ul class="list">
+                <li class="listItem"><a href="https://www.bsut.by/university/faculties/etf/chairs/iusit" target="_blank">University: Belarusian State University of Transport, Electrical Engineer (2013-2018)</a></li>
+                <li class="listItem"><a href="https://www.pac.by/about/structure/institute-of-public-service/department-of-the-institute-of-public-service/the-department-of-personnel-policy-and-management-psychology/" target="_blank">Academy: Academy of Public Administration under the President of the Republic of Belarus, Human Resources (2020-2022)</a></li>
+            </ul>
+        </section>
+        <div class="breakLine"></div>
+        <section id="sectionEnglish">
+            <h2>English</h2>
+            <p>A2 (Pre-Intermediate)</p>
+            <div class="breakLine"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span>© 2022 by Valery Loznia: <a href="https://github.com/varchoon" target="_blank"><img class="dispGithub" src="img/github.png" alt="imgGithub"/></a></span>
+        <span><a href="https://rs.school/js-stage0/" target="_blank"><img class="dispRSS" src="img/rs_school_js.svg" alt="imgRollingScope"/></a></span>
+    </footer>
 </body>
 </html>
