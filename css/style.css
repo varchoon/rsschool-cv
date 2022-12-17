@@ -1,27 +1,80 @@
-.name{
+p{
+    font-family: 'Lucida Sans Regular';
+    font-size: large;
     text-align: center;
 }
+.name{
+    text-align: left;
+    display: inline-block;
+}
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: orange;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
 .main{
-    max-width: 960px;
-    margin: auto;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: burlywood;
     padding-left: 5px;
     padding-top: 5px;
     padding-right: 5px;
+    text-align: center;
 }
 .breakLine{
     background-color: bisque;
     height: 5px;
     padding-left: 0px;
 }
-.info{
-    max-width: 625px;
+.center{
+    max-width: max-content;
+    margin: 0 auto;
 }
 .image{
-    width: 30%;
-    height: 30%;
-    float: right;
+    width: 15%;
+    height: 15%;
 }
-.contacts{
+.list{
     list-style-type: circle;
+}
+.listItem{
+    font-family: 'Lucida Sans Regular';
+    font-size: large;
+    text-align: left;
+}
+.code{
+    max-width: max-content;
+    background: #efefef;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    text-align: left;
+    overflow-x: auto;
+    margin: 19px auto;
+}
+.menu a{
+    font-size: large;
+    font-weight: bold ;
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu{
+    display: inline-block;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: orange;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.dispRSS{
+    width: 10%;
+    height: 10%;
+}
+.dispGithub{
+    width: 3%;
+    height: 3%;
 }
